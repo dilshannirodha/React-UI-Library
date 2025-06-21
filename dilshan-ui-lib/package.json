@@ -1,6 +1,6 @@
 {
-  "name": "dilshan-ui-lib",
-  "version": "1.0.0",
+  "name": "dilshan-react-lib",
+  "version": "1.0.4",
   "description": "A reusable component library with Tailwind CSS and React",
   "main": "dist/index.js",
   "module": "dist/index.js",
@@ -17,7 +17,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "rollup -c",
+    "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
